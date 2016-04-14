@@ -29,7 +29,8 @@ def main():
     soup = BeautifulSoup(html, 'html.parser')
     scrape_headlines(soup)
 
-main()
+if __name__ == '__main__':
+    main()
 
 #Logic flow.
 #Open site with urllib
